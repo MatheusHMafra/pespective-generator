@@ -1,0 +1,31 @@
+.box{
+    width: 30px;
+    height: 45px;
+    border-top: 50px solid blue;
+    border-right: 50px solid yellow;
+    border-bottom: 50px solid green;
+    border-left: 50px solid red;
+    border-width: 30px;
+    background-color: black;
+}
+
+@media only screen and (max-width: 780px) {
+    .box{
+        width: 0;
+        height: 0;
+        border-top: 100px solid red;
+        border-right: 100px solid blue;
+        border-bottom: 100px solid yellow;
+        border-left: 100px solid green;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .box{
+        width: 0;
+        height: 0;
+        border-top: 100px solid green;
+        border-right: 100px solid red;
+        border-bottom: 100px solid blue;
+        border-left: 100px solid yellow;
+    }
+}
